@@ -39,7 +39,8 @@
   ALERT_RECIPIENT="caregiver@example.com"
 
 Installation
-git clone https://github.com/sabkatdesh/omani-therapist-voice.git
+git clone https://github.com/sabkatdesh/OMANI-Therapist-Voice-Islamic-Mental-Health-Assistant
+.git
 cd omani-therapist-voice
 pip install -r requirements.txt
 

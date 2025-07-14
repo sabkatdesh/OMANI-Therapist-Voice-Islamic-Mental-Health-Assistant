@@ -56,6 +56,8 @@ Change Voice (TTS)
 Modify .env:
 ASSISTANT_VOICE="ar-OM-AyshaNeural"  # Female voice
 
+
+Structure
 - .env
 - crisis_detection.py
 - eenigne_2_arabic.py

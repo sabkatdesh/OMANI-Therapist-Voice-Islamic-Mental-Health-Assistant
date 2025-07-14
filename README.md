@@ -34,9 +34,13 @@
 - Chrome browser (for STT)  
 - `.env` file with:  
   ```ini
-  GROQ_API_KEY="your_key"
-  GOOGLE_API_KEY="your_key"
-  ALERT_RECIPIENT="caregiver@example.com"
+  InputLanguage = ar-OM# 
+  ASSISTANT_VOICE= ar-OM-AyshaNeural
+  ALERT_RECIPIENT=*************@email.com
+  SMTP_SENDER= !!!!!!!!!!!@email.com
+  SMTP_PASSWORD=device_password
+  SMTP_SERVER=smtp.gmail.com
+  SMTP_PORT=587
 
 Installation
 git clone https://github.com/sabkatdesh/OMANI-Therapist-Voice-Islamic-Mental-Health-Assistant
@@ -51,6 +55,23 @@ python main.py  # Launches Gradio UI at http://localhost:7860
 Change Voice (TTS)
 Modify .env:
 ASSISTANT_VOICE="ar-OM-AyshaNeural"  # Female voice
+
+- .env
+- crisis_detection.py
+- eenigne_2_arabic.py
+- main.py
+- requirements.txt.txt
+- stt.py
+- tts.py
+- data/
+    - arabic-coping-with-mental-health-crises-and-emergencies.pdf
+    - CwC-2-2008-Arabic.pdf
+    - Islamic-Spirituality-and-Mental-Well-Being-revised.pdf
+    - ISLAMICALLY_INTEGRATED_Psychotherapy (1).pdf
+
+
+
+
 
 
 
